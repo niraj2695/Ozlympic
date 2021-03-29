@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="551.0" prefWidth="453.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CyclingAnimationController">
+   <children>
+      <AnchorPane prefHeight="595.0" prefWidth="492.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Circle fx:id="path" fill="GREY" layoutX="246.0" layoutY="270.0" radius="247.0" stroke="GREY" strokeType="INSIDE" />
+            <Circle fx:id="innerCircle" fill="WHITE" layoutX="248.0" layoutY="270.0" radius="118.0" stroke="BLACK" strokeType="INSIDE" />
+            <ImageView fx:id="participant1" fitHeight="30.0" fitWidth="24.0" layoutX="97.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="participant2" fitHeight="30.0" fitWidth="24.0" layoutX="85.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="participant4" fitHeight="30.0" fitWidth="24.0" layoutX="61.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="participant3" fitHeight="30.0" fitWidth="24.0" layoutX="73.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="participant5" fitHeight="30.0" fitWidth="24.0" layoutX="43.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="participant6" fitHeight="30.0" fitWidth="24.0" layoutX="31.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="participant7" fitHeight="30.0" fitWidth="24.0" layoutX="31.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="participant8" fitHeight="30.0" fitWidth="24.0" layoutX="19.0" layoutY="283.0">
+               <image>
+                  <Image url="@images/cycling_bg.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="playerTwo" layoutX="199.0" layoutY="211.0" prefHeight="17.0" prefWidth="105.0" />
+            <Label fx:id="playerThree" layoutX="199.0" layoutY="236.0" prefHeight="17.0" prefWidth="86.0" />
+            <Label fx:id="playerFour" layoutX="199.0" layoutY="262.0" prefHeight="17.0" prefWidth="116.0" />
+            <Label fx:id="playerFive" layoutX="199.0" layoutY="283.0" prefHeight="17.0" prefWidth="124.0" />
+            <Label fx:id="playerSix" layoutX="199.0" layoutY="305.0" prefHeight="17.0" prefWidth="132.0" />
+            <Label fx:id="playerSeven" layoutX="199.0" layoutY="328.0" prefHeight="17.0" prefWidth="105.0" />
+            <Label fx:id="playerEight" layoutX="199.0" layoutY="352.0" prefHeight="17.0" prefWidth="98.0" />
+            <Label fx:id="playerOne" layoutX="199.0" layoutY="183.0" prefHeight="17.0" prefWidth="124.0" />
+            <JFXButton fx:id="displayResultsPage" layoutX="193.0" layoutY="537.0" onAction="#displayResults" prefHeight="30.0" prefWidth="116.0" style="-fx-background-color: #064c88;" text="View Results" textFill="WHITE" />
+            <ImageView fitHeight="44.0" fitWidth="98.0" layoutX="6.0" layoutY="14.0">
+               <image>
+                  <Image url="@images/finishGame.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="62.0" fitWidth="116.0" layoutX="4.0" layoutY="540.0">
+               <image>
+                  <Image url="@images/crowd.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="62.0" fitWidth="86.0" layoutX="104.0" layoutY="539.0">
+               <image>
+                  <Image url="@images/crowd.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="62.0" fitWidth="86.0" layoutX="321.0" layoutY="540.0">
+               <image>
+                  <Image url="@images/crowd.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="62.0" fitWidth="86.0" layoutX="405.0" layoutY="537.0">
+               <image>
+                  <Image url="@images/crowd.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="98.0" layoutX="381.0" layoutY="14.0">
+               <image>
+                  <Image url="@images/finishGame.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

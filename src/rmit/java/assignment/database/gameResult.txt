@@ -1,0 +1,57 @@
+oz1000 , swimmers,Niraj Bohra,22,VIC
+oz1000 , swimmers,Niraj Bohra,22,VIC
+oz1001,swimmers,Eashan Tilve,25,VIC
+oz1002,swimmers,Deep Sharna,26,SA
+oz1003,swimmers,Soumil Roy,29,NSW
+oz1004,swimmers,Naresh Devlani,21,WA
+oz1005,swimmers,Rohan Bopana,23,WA
+oz1006,swimmers,Shivang Desai,22,SA
+oz1007,swimmers,Siddarth Shewale,29,NSW
+oz1008,sprinters,Lakshay,22,VIC
+oz1008,sprinters,Lakshay,22,VIC
+oz1008,sprinters,Lakshay,22,VIC
+oz1008,sprinters,Lakshay,22,VIC
+oz1008,sprinters,Lakshay,22,VIC
+oz1008,sprinters,Lakshay,22,VIC
+oz1008,sprinters,Lakshay,22,VIC
+oz1008,sprinters,Lakshay,22,VIC
+oz1009,sprinters,Ramcharan,23,VIC
+oz1010,sprinters,Robert,25,SA
+oz1011,sprinters,Sachin,29,SA
+oz1012,sprinters,Dhoni,26,QLD
+oz1013,sprinters,Yogesh,24,QLD
+oz1014,sprinters,Shane,24,TAS
+oz1015,sprinters,Steve,23,WA
+oz1016,sprinters,Rahane,20,WA
+oz1017,sprinters,Symonds,29,TAS
+oz1018,cyclists,Saske,26,NSW
+oz1019,cyclists,Madara,24,SA
+oz1020,cyclists,Aditya,26,NSW
+oz1021,cyclists,Rajesh,24,SA
+oz1022,cyclists,Mitchel,26,NSW
+oz1023,cyclists,Raymond,24,SA
+oz1024,cyclists,Virat,26,NSW
+oz1025,cyclists,Arjun,24,SA
+oz1026,cyclists,Satya,22,QLD
+oz1020,cyclists,Aditya,26,NSW
+oz1020  ,cyclists, Aditya, 26 , NSW
+
+oz1020,cyclists,Aditya,26,NSW
+oz1027,cyclists,Doremon, 23,TAS
+oz1029,cyclists,Luke,23,TAS
+oz1031,cyclists,David,23,TAS
+oz1032,super,Satya,22,QLD
+oz1033,super,Doremon,23,TAS
+oz1034,super,Abhijeet,22,QLD
+oz1033,super,Doremon,23,TAS
+oz1033,super,Doremon,23,TAS
+oz1033,super,Doremon,23,TAS
+oz1034,super,Abhijeet,22,QLD
+oz1035,super,Luke,23,TAS
+oz1036,super,Root,22,QLD
+oz1037,super,David,23,TAS
+oz1038,official,Roger,42,WA
+oz1039,official,Andy,42,QLD
+oz1040,official,Alex,42,TAS
+oz1041,official,Homy,42,SA
+oz1042,official,Andrian, 42,VIC

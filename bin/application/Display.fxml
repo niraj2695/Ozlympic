@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="647.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DisplayController">
+   <children>
+      <AnchorPane layoutX="-1.0" prefHeight="647.0" prefWidth="611.0" style="-fx-background-color: #FFF;">
+         <children>
+            <JFXButton fx:id="home" layoutX="260.0" layoutY="590.0" onAction="#homeMenu" prefHeight="20.0" prefWidth="87.0" style="-fx-background-color: #064C88;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS" size="14.0" />
+               </font>
+            </JFXButton>
+            <TableView fx:id="table" layoutX="57.0" layoutY="194.0" prefHeight="244.0" prefWidth="498.0">
+               <columns>
+                  <TableColumn fx:id="id" prefWidth="60.0" text="id" />
+                  <TableColumn fx:id="type" editable="false" text="type" />
+                  <TableColumn fx:id="name" editable="false" prefWidth="86.0" text="name" />
+                  <TableColumn fx:id="age" editable="false" prefWidth="39.0" text="age" />
+                  <TableColumn fx:id="state" editable="false" prefWidth="126.0" text="state" />
+                  <TableColumn fx:id="time" editable="false" prefWidth="97.0" sortable="false" text="time" />
+               </columns>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </TableView>
+            <Label fx:id="gameID" layoutX="181.0" layoutY="47.0" text="Game ID:" textFill="#ff0505">
+               <font>
+                  <Font name="Trebuchet MS" size="17.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="110.0" fitWidth="126.0" layoutX="47.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/scorecardIcon.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="refereeName" layoutX="307.0" layoutY="105.0" prefHeight="18.0" prefWidth="75.0" style="-fx-text-fill: #064C88;" textFill="#064c88">
+               <font>
+                  <Font name="Trebuchet MS" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="refereeID" layoutX="179.0" layoutY="75.0" text="Referee ID:" textFill="RED">
+               <font>
+                  <Font name="Trebuchet MS" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="refereeID" layoutX="276.0" layoutY="75.0" prefHeight="17.0" prefWidth="68.0" style="-fx-text-fill: #064C88;" textFill="#064c88">
+               <font>
+                  <Font name="Trebuchet MS" size="15.0" />
+               </font></Label>
+            <Label fx:id="gameID" layoutX="268.0" layoutY="45.0" prefHeight="17.0" prefWidth="57.0" style="-fx-text-fill: #064C88;">
+               <font>
+                  <Font name="Trebuchet MS" size="17.0" />
+               </font></Label>
+            <Label layoutX="181.0" layoutY="110.0" text="Referee Name:" textFill="RED">
+               <font>
+                  <Font name="Trebuchet MS" size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="gameID1" layoutX="277.0" layoutY="47.0" prefHeight="17.0" prefWidth="57.0" style="-fx-text-fill: #064C88;" textFill="#064c88">
+               <font>
+                  <Font name="Trebuchet MS" size="15.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="20.0" fitWidth="40.0" layoutX="23.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/gold.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="25.0" layoutX="23.0" layoutY="249.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/silver.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="90.0" fitWidth="25.0" layoutX="23.0" layoutY="274.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bronze.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="136.0" fitWidth="149.0" layoutX="230.0" layoutY="449.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/olympics.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

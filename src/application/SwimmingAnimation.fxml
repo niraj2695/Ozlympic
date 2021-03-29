@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SwimmerAnimationController">
+
+   <children>
+
+      <AnchorPane layoutX="-15.0" layoutY="-18.0" prefHeight="595.0" prefWidth="492.0">
+
+         <children>
+
+            <ImageView fitHeight="79.0" fitWidth="97.0" layoutX="14.0" layoutY="17.0">
+
+               <image>
+
+                  <Image url="@images/finishGame.jpg" />
+
+               </image>
+
+            </ImageView>
+
+            <ImageView fitHeight="79.0" fitWidth="97.0" layoutX="395.0" layoutY="17.0">
+
+               <image>
+
+                  <Image url="@images/finishGame.jpg" />
+
+               </image>
+
+            </ImageView>
+
+            <ImageView fitHeight="62.0" fitWidth="192.0" layoutX="17.0" layoutY="531.0">
+
+               <image>
+
+                  <Image url="@images/crowd.png" />
+
+               </image>
+
+            </ImageView>
+
+            <ImageView fitHeight="79.0" fitWidth="155.0" layoutX="335.0" layoutY="518.0">
+
+               <image>
+
+                  <Image url="@images/crowd.png" />
+
+               </image>
+
+            </ImageView>
+
+         </children></AnchorPane>
+
+      <ImageView fx:id="swimPath" fitHeight="355.0" fitWidth="477.0" layoutY="78.0">
+
+         <image>
+
+            <Image url="@images/swim%20path.jpg" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant1" fitHeight="27.0" fitWidth="41.0" layoutX="103.0" layoutY="130.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant2" fitHeight="27.0" fitWidth="41.0" layoutX="103.0" layoutY="160.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant3" fitHeight="27.0" fitWidth="41.0" layoutX="103.0" layoutY="192.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant4" fitHeight="27.0" fitWidth="41.0" layoutX="104.0" layoutY="221.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant5" fitHeight="27.0" fitWidth="41.0" layoutX="108.0" layoutY="247.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant6" fitHeight="27.0" fitWidth="41.0" layoutX="109.0" layoutY="279.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant7" fitHeight="27.0" fitWidth="41.0" layoutX="109.0" layoutY="306.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <ImageView fx:id="participant8" fitHeight="27.0" fitWidth="41.0" layoutX="109.0" layoutY="335.0">
+
+         <image>
+
+            <Image url="@images/swimming_bg.png" />
+
+         </image>
+
+      </ImageView>
+
+      <JFXButton fx:id="displayResultsPage" layoutX="192.0" layoutY="489.0" onAction="#displayResults" style="-fx-background-color: #064c88;" text="View Results" textFill="WHITE" />
+      <Label layoutX="-45.0" layoutY="224.0" prefHeight="22.0" prefWidth="182.0" rotate="90.0" text="LET THE GAME BEGIN" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="19.0" />
+         </font>
+      </Label>
+
+      <Label fx:id="playerFive" layoutX="208.0" layoutY="253.0" prefHeight="17.0" prefWidth="147.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+      <Label fx:id="playerSix" layoutX="210.0" layoutY="280.0" prefHeight="17.0" prefWidth="139.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+      <Label fx:id="playerFour" layoutX="211.0" layoutY="226.0" prefHeight="17.0" prefWidth="155.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+      <Label fx:id="playerTwo" layoutX="214.0" layoutY="165.0" prefHeight="17.0" prefWidth="155.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+      <Label fx:id="playerEight" layoutX="215.0" layoutY="338.0" prefHeight="17.0" prefWidth="139.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+      <Label fx:id="playerThree" layoutX="214.0" layoutY="197.0" prefHeight="17.0" prefWidth="155.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+      <Label fx:id="playerOne" layoutX="213.0" layoutY="135.0" prefHeight="17.0" prefWidth="147.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+      <Label fx:id="playerSeven" layoutX="212.0" layoutY="308.0" prefHeight="17.0" prefWidth="139.0" textFill="#00126b">
+         <font>
+            <Font name="Trebuchet MS" size="10.0" />
+         </font></Label>
+
+   </children>
+
+</AnchorPane>

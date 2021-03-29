@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DisplayAllGames">
+   <children>
+      <AnchorPane layoutX="-8.0" layoutY="-14.0" prefHeight="590.0" prefWidth="543.0" style="-fx-background-color: #FFF;">
+         <children>
+            <JFXButton fx:id="home" layoutX="217.0" layoutY="527.0" onAction="#homeMenu" prefHeight="29.0" prefWidth="118.0" style="-fx-background-color: #064C88;" text="Home" textFill="WHITE">
+               <font>
+                  <Font name="Trebuchet MS" size="17.0" />
+               </font>
+            </JFXButton>
+            <ListView fx:id="list" layoutX="30.0" layoutY="139.0" prefHeight="337.0" prefWidth="472.0" style="-fx-background-color: #fff;; -fx-border-color: #fff;">
+               <effect>
+                  <Blend />
+               </effect></ListView>
+            <Label layoutX="170.0" layoutY="45.0" style="-fx-text-fill: #900000;" text="Games Record">
+               <font>
+                  <Font name="Trebuchet MS" size="37.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="101.0" fitWidth="118.0" layoutX="37.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/records.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
